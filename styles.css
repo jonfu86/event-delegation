@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  font-size: 24px;
+
+}
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 3px solid blue;
+  padding:2px;
+}
+
+.container > .box {
+  flex: 0 0 32.5%;
+  width: 32.5%;
+  height: 32.5%;
+  border: 2px solid black;
+  margin: 0;
+}
+
+.box > p {
+  margin: 12% 20%;
+  padding:5px;
+  border: 1px solid green;
+
+}
+
+.red {
+  background: red;
+}
+
+.pink {
+  background-color:hotpink;
+}
+
+.orange{
+  background-color: orange;
+}
