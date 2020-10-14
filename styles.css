@@ -16,7 +16,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-around;
   border: 3px solid blue;
-  padding:2px;
+  padding:20px;
 }
 
 .container > .box {
